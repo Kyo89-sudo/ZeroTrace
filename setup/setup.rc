@@ -1,0 +1,30 @@
+// Compilare dalla cartella principale del progetto (i percorsi sono relativi a essa)
+#include <windows.h>
+#include "setup_res.h"
+1 ICON "src/ZeroTrace.ico"
+1 24 "src/ZeroTrace.manifest"
+IDR_ZEROTRACE RCDATA "bin/ZeroTrace.exe"
+IDR_STUB    RCDATA "bin/StubbornApp.exe"
+IDR_README  RCDATA "README.md"
+VS_VERSION_INFO VERSIONINFO
+FILEVERSION 1,1,0,0
+PRODUCTVERSION 1,1,0,0
+FILEOS 0x40004
+FILETYPE 0x1
+BEGIN
+  BLOCK "StringFileInfo"
+  BEGIN
+    BLOCK "041004B0"
+    BEGIN
+      VALUE "FileDescription", "Installazione di ZeroTrace"
+      VALUE "ProductName", "ZeroTrace"
+      VALUE "FileVersion", "1.1.0"
+      VALUE "ProductVersion", "1.1.0"
+      VALUE "OriginalFilename", "ZeroTrace-Setup-1.1.exe"
+    END
+  END
+  BLOCK "VarFileInfo"
+  BEGIN
+    VALUE "Translation", 0x410, 1200
+  END
+END

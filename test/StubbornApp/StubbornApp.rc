@@ -1,0 +1,3 @@
+#include <windows.h>
+1 ICON "StubbornApp.ico"
+1 24 "StubbornApp.manifest"

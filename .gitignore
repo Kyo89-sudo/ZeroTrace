@@ -1,0 +1,14 @@
+# file compilati (gli eseguibili vanno pubblicati come Release)
+bin/
+out/
+build/
+*.o
+*.obj
+*.res
+*.exe
+*.pdb
+*.ilk
+# editor
+.vs/
+.vscode/
+*.user

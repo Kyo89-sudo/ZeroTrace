@@ -1,0 +1,32 @@
+#include <windows.h>
+#include "resource.h"
+IDI_APP ICON "ZeroTrace.ico"
+IDI_TB_UNINSTALL ICON "icons/tb_uninstall.ico"
+IDI_TB_FORCE     ICON "icons/tb_force.ico"
+IDI_TB_TRACES    ICON "icons/tb_traces.ico"
+IDI_TB_REFRESH   ICON "icons/tb_refresh.ico"
+IDI_TB_VIEW      ICON "icons/tb_view.ico"
+IDI_TB_FOLDER    ICON "icons/tb_folder.ico"
+IDI_TB_REGISTRY  ICON "icons/tb_registry.ico"
+1 24 "ZeroTrace.manifest"
+VS_VERSION_INFO VERSIONINFO
+FILEVERSION 1,1,0,0
+PRODUCTVERSION 1,1,0,0
+FILEOS 0x40004
+FILETYPE 0x1
+BEGIN
+  BLOCK "StringFileInfo"
+  BEGIN
+    BLOCK "041004B0"
+    BEGIN
+      VALUE "FileDescription", "ZeroTrace - Disinstallazione completa"
+      VALUE "ProductName", "ZeroTrace"
+      VALUE "FileVersion", "1.1.0"
+      VALUE "ProductVersion", "1.1.0"
+    END
+  END
+  BLOCK "VarFileInfo"
+  BEGIN
+    VALUE "Translation", 0x410, 1200
+  END
+END
